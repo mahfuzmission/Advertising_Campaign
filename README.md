@@ -16,7 +16,8 @@ Sorry could not add docker because of facing some error while pulling images whi
 
 ### Backend - laravel
 
-- Go to `campaign_backend` directory and run `composer install`.
+- Go to `campaign_backend` directory and rename `.env.example` to `.env`
+- Run `composer install`.
 - In the `.env` file change the database connection info
 ```
     DB_CONNECTION=mysql 
