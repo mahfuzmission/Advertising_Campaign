@@ -40,3 +40,6 @@ Sorry could not add docker because of facing some error while pulling images whi
 
 ## Run Test
 
+- run `./vendor/bin/phpunit` from `campaign_backend` to run the tests
+
+
