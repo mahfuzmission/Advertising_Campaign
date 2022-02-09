@@ -11,6 +11,8 @@ class CampaignCreative extends Model
 
     protected $table = "ad_campaign_creatives";
 
+    protected $fillable = ["ad_campaign_id", "path"];
+
     protected $appends = ['image_url'];
 
     public function getImageUrlAttribute()
